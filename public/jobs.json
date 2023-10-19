@@ -13,15 +13,18 @@
     "educational_requirements": "Bachelor degree to complete any reputational university.",
     "experiences": "2-3 Years in this field.",
     "contact_information": {
-      "phone": "01750-00 00 00",
-      "email": "info@gmail.com",
-      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      "phone":"01750-00 00 00",
+      "email":"info@gmail.com",
+      "address":"Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+      
      
     },
     "address_icon": "https://i.ibb.co/5FQvnWp/location2.png",
       "email_icon": "https://i.ibb.co/wJDbGwQ/email.png",
       "dollor_icon": "https://i.ibb.co/0J34D4s/money.png",
-      "call_icon": "https://i.ibb.co/KqWgFQd/phone.png"
+      "call_icon": "https://i.ibb.co/KqWgFQd/phone.png",
+      "banner1":"https://i.ibb.co/fCfW2mZ/bg1.png",
+      "banner2":"https://i.ibb.co/qFrrvdF/bg2.png"
   },
   {
     "id": 2,

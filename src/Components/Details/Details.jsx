@@ -9,6 +9,7 @@ import {  useLoaderData, useParams } from "react-router-dom";
 
 const Details = () => {
     const jobsDetails = useLoaderData()
+    console.log(jobsDetails[0].banner1)
     const { jobId } = useParams();
     const idInt =parseInt(jobId)
     const job = jobsDetails.find((jobDetails) => jobDetails.id == idInt)
@@ -20,8 +21,8 @@ const Details = () => {
         toast("You successfully applied the job");}
     return (
         <div >
-            <div className="bg-[url('../../../public/assets/images/bg1.png')] bg-no-repeat bg-left-bottom h-80  text-center  bg-sky-50 ">
-                <div className="bg-[url('../../../public/assets/images/bg2.png')] bg-no-repeat bg-right-top h-64 items-center flex justify-center  ">
+            <div className="bg-[url('https://i.ibb.co/fCfW2mZ/bg1.png')] bg-no-repeat bg-left-bottom h-80  text-center  bg-sky-50" >
+                <div className="bg-[url({jobsDetails[0].banner2})] bg-no-repeat bg-right-top h-64 items-center flex justify-center  ">
                     <h1 className="text-5xl font-bold  "> Job Details</h1>
                 </div>
 

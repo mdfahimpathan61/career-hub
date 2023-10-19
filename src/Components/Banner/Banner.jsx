@@ -15,7 +15,7 @@ const Banner = () => {
                 <button className="btn bg-[#7E90FE] text-white font-semibold hover:bg-[#4c64ff]">Get Started</button>
             </div>
             <div>
-                <img src="../../../public/assets/images/user.png" alt="" />
+                <img src={categories[0].image} alt="" />
             </div>
             </div>
 

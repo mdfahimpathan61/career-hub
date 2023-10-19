@@ -2,7 +2,7 @@
 
 const JobList = ({category}) => {
     const {logo, category_name, availability} = category
-    console.log(category)
+    // console.log(category)
     return (
         <div>
             
