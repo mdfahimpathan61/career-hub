@@ -22,7 +22,7 @@ const Details = () => {
     return (
         <div >
             <div className="bg-[url('https://i.ibb.co/fCfW2mZ/bg1.png')] bg-no-repeat bg-left-bottom h-80  text-center  bg-sky-50" >
-                <div className="bg-[url({jobsDetails[0].banner2})] bg-no-repeat bg-right-top h-64 items-center flex justify-center  ">
+                <div className="bg-[url('https://i.ibb.co/qFrrvdF/bg2.png')] bg-no-repeat bg-right-top h-64 items-center flex justify-center  ">
                     <h1 className="text-5xl font-bold  "> Job Details</h1>
                 </div>
 
